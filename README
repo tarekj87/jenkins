@@ -1,0 +1,31 @@
+##########
+
+First Script
+
+
+##########
+
+I am using shell script to get the logs of successfull builds from 1 Jan 2020 (Timestamp: 1577808000) till now by "Remote Access API".
+The Logs are json files. I am processing the logs using pq.
+
+Note: You need to have pq command istalled on your machine.
+
+Note: Script usage is:  sh task1.sh Branch_name JobName
+
+
+
+
+##########
+
+Second Script
+
+##########
+
+
+I am using shell script to get the changeSet [items[comment,affectedPaths,commitId,msg,author[fullName]]]  for specific build by "Remote Access API".
+The Logs are json files. I am processing the logs using pq.
+
+Note: You need to have pq command istalled on your machine.
+
+
+Note: Script usage is: sh task2.sh Branch JobName Build_id
